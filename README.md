@@ -14,6 +14,53 @@
 
 **作者**：Alastorbaby、大肥鱼（AI 协作）
 
+---
+
+# ⚡ 快速开始（必读）
+
+## 1️⃣ SlimefunHelper 版本：必须是 **1.1.7.2**
+
+其它版本参数不通用，**装错版本参数会失效**。
+
+## 2️⃣ 配置文件：👉 [`slimefunhelper-config/xxx.nbt`](slimefunhelper-config/xxx.nbt)
+
+**把这个文件复制到**：
+
+```
+.minecraft/versions/<你的游戏版本>/slimefunhelper/config/xxx.nbt
+```
+
+这份参数是甲飞能跑起来的前提，其中包含：
+
+| 配置路径 | 值 |
+|---|---|
+| `elytra` → `simple-flight-control` → `flight-mode` | `CONTROL` |
+| `elytra` → `simple-flight-control` → `motion-mode` | `FIRE_WORKS` |
+| `elytra` → `simple-flight-control` → `horizontal-no-gravity` | 开 |
+| `elytra` → `simple-flight-control` → `enable-control` | 开 |
+| `elytra` → `armor-fly` → `armor-mode` | `TICK` |
+| `elytra` → `armor-fly` → `enable` | 开 |
+
+## 3️⃣ 模组本体
+
+从 [Releases](https://github.com/Alastorbaby/MagicBaritone/releases/latest) 下载 jar，放进 `mods/`。
+
+进游戏执行：
+
+```
+#slime false
+```
+
+开始接管。
+
+---
+
+# 🎬 演示视频
+
+**https://www.bilibili.com/video/BV1qenL6oEaZ**
+
+---
+
 ### 它做了什么
 
 | 层 | 处理方式 |
